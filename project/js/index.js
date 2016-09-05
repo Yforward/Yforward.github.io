@@ -98,12 +98,12 @@
  		var img=document.createElement('img');
  		img.src=dataImg[i];
  		img.onload=function(){
- 			console.log(num1)
  			num1++;
  			var progress=num1/dataImg.length;
  			var numLength=parseInt(getComputedStyle(loadingBar).height);
 			loadingText.innerHTML=parseInt(progress*100)+'%';
-			loadingBar.style.backgroundPositionY=-numLength+progress*numLength+'px';
+			loadingBar.style.backgroundPositionY=(numLength-progress*numLength)+'px';
+			console.log(-numLength+progress*numLength)
 			if(num1>=dataImg.length){
 				setTimeout(function(){
 					preloaderWarp.style.display='none';
