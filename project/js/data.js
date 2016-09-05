@@ -35,5 +35,5 @@ var dataBottom=[{
 		title:['Frobusch','IP','Check My Car','Edel','myTaxi','Bifi','ULI SCHNEIDER','Wizard','NORDIC OIL','Elbweiss'],
 		tips:['Web','Corporate','Corporate','Web','Corporate','Web','Web','Corporate','Web','Corporate']
 	}];
-var dataImg=['img/1.jpg','img/2.jpg','img/3.jpg','img/4.jpg','img/5.jpg','img/6.jpg','img/7.jpg','img/8.jpg','img/9.jpg','img/10.jpg','img/11.jpg','img/12.jpg','img/13.jpg','img/14.jpg','img/15.jpg','img/16.jpg','img/17.jpg','img/18.jpg','img/19.jpg','img/20.jpg','home_bg.jpg','projects_bg.jpg','design_bg.jpg','technik_bg.jpg','lab_bg.jpg','about_bg.jpg','jobs_bg.jpg']
+var dataImg=['img/1.jpg','img/2.jpg','img/3.jpg','img/4.jpg','img/5.jpg','img/6.jpg','img/7.jpg','img/8.jpg','img/9.jpg','img/10.jpg','img/11.jpg','img/12.jpg','img/13.jpg','img/14.jpg','img/15.jpg','img/16.jpg','img/17.jpg','img/18.jpg','img/19.jpg','img/20.jpg','img/home_bg.jpg','img/projects_bg.jpg','img/design_bg.jpg','img/technik_bg.jpg','img/lab_bg.jpg','img/about_bg.jpg','img/jobs_bg.jpg']
 
