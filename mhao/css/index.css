@@ -149,14 +149,18 @@ body{
 }
 /*1楼主体*/
 .main_warp{
-	overflow: auto;
+	overflow: hidden;
 	width: 100%;
+	position: relative;
+	height:24.2rem;
 }
 .main{
 	height: 23.1rem;
 	padding-bottom: 1.1rem;
 	margin-right: -9999px;
 	padding-left: 1.1rem;
+	position: absolute;
+	left:0;
 }
 .main_item{
 	width:13.6rem;
@@ -360,15 +364,17 @@ div .noborder{
 .f5_main,.f6_main,.f7_main,.f8_main{
 	padding: 1.1rem 0;
 	margin-right: -9999px;
+
 }
 .f5_item,.f6_item,.f7_item,.f8_item{
 	width: 12.3rem;
 	border-right: 0.1rem solid #e2e2e2;
 }
 .f5_main_warp,.f6_main_warp,.f7_main_warp,.f8_main_warp{
-	overflow: auto;
+	overflow: hidden;
 	width: 100%;
 	background-color: white;
+	
 }
 .f5_head h3,.f6_head h3,.f7_head h3,.f8_head h3,.f9_head h3{
 	width: 8rem;
