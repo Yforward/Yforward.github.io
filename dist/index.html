@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0;" name="viewport"><link rel="icon" href="/favicon.ico"><title>吃饭</title><link href="/css/about.86033295.css" rel="prefetch"><link href="/js/about.07228b38.js" rel="prefetch"><link href="/css/app.eed7ce90.css" rel="preload" as="style"><link href="/css/chunk-vendors.59cfda52.css" rel="preload" as="style"><link href="/js/app.26501a43.js" rel="preload" as="script"><link href="/js/chunk-vendors.0c989705.js" rel="preload" as="script"><link href="/css/chunk-vendors.59cfda52.css" rel="stylesheet"><link href="/css/app.eed7ce90.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but homepage doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="/js/chunk-vendors.0c989705.js"></script><script src="/js/app.26501a43.js"></script></body><script>document.addEventListener('touchstart', function (event) {
+    if (event.touches.length > 1) {
+      event.preventDefault();
+    }
+  });
+  var lastTouchEnd = 0;
+  document.addEventListener('touchend', function (event) {
+    var now = (new Date()).getTime();
+    if (now - lastTouchEnd <= 300) {
+      event.preventDefault();
+    }
+    lastTouchEnd = now;
+  }, false);
+  document.addEventListener('gesturestart', function (event) {
+    event.preventDefault();
+  });</script></html>
